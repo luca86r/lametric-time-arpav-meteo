@@ -18,6 +18,33 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>android</artifactId>
+      <version>4.1.1.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.13.0</version> <!-- Sostituisci con la versione più recente di Jackson -->
+    </dependency>
+
+    <!-- Dipendenza per Jackson Databind -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.13.0</version> <!-- Sostituisci con la versione più recente di Jackson -->
+    </dependency>
+
+    <!-- Dipendenza per Jackson Dataformat XML -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>2.13.0</version> <!-- Sostituisci con la versione più recente di Jackson -->
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
