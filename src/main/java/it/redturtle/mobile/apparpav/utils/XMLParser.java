@@ -21,27 +21,22 @@
 
 package it.redturtle.mobile.apparpav.utils;
 
-import com.lucarubin.MeteoData;
+import android.content.Context;
 import it.redturtle.mobile.apparpav.Radar;
 import it.redturtle.mobile.apparpav.types.Bulletin;
 import it.redturtle.mobile.apparpav.types.Forecast;
 import it.redturtle.mobile.apparpav.types.Meteogram;
 import it.redturtle.mobile.apparpav.types.Row;
 import it.redturtle.mobile.apparpav.types.Slot;
+import org.xmlpull.mxp1.MXParser;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Optional;
-
-import org.xmlpull.mxp1.MXParser;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-
-import android.content.Context;
-import android.util.Xml;
 
 
 /**
@@ -71,11 +66,12 @@ public class XMLParser {
 
 
 	/**
-	 * Parser for the bulletin XML, at the end of documet it writes serialized datas on returned object
+	 * Parser for the bulletin XML, at the end of documet it writes serialized datas on sharedPreferences
+	 * @param context
 	 */
-	public static Optional<MeteoData> getXML(String data)  {
-		
-		Map<String, Object> bulletins = new HashMap<String, Object>();	
+	public static boolean getXML(Context context, String data) {
+
+		Map<String, Object> bulletins = new HashMap<String, Object>();
 		Map<String, Object> meteograms = new HashMap<String, Object>();
 		LinkedList<Radar> radars = new LinkedList<Radar>();
 
@@ -86,7 +82,7 @@ public class XMLParser {
 			boolean meteogrammi = true;
 
 			// Meteogram parse
-			Meteogram cSlots = null;	
+			Meteogram cSlots = null;
 			LinkedList<Slot> listOfSlot = null;
 			LinkedList<Row> listOfrows = null;
 
@@ -105,25 +101,27 @@ public class XMLParser {
 					if(meteogrammi){
 
 						// Add double information: title|cielo|tquota|tvalli|precipitazioni|probabilita|neve|Attendibilita
-						if(name.equalsIgnoreCase("double_row"))
-							listOfrows.add((new Row(getAttributes(parser)).setType(1))); 
+						if (name.equalsIgnoreCase("double_row")) {
+							listOfrows.add((new Row(getAttributes(parser)).setType(1)));
+						}
 
 						// Add single information: title|cielo|tquota|tvalli|precipitazioni|probabilita|neve|Attendibilita
-						else if(name.equalsIgnoreCase("single_row"))
-							listOfrows.add((new Row(getAttributes(parser))).setType(0)); 
+						else if (name.equalsIgnoreCase("single_row")) {
+							listOfrows.add((new Row(getAttributes(parser))).setType(0));
+						}
 
 						// Instantiate list of informations
-						else if(meteogrammi && name.equalsIgnoreCase("slots"))
+						else if (meteogrammi && name.equalsIgnoreCase("slots"))
 							listOfSlot = new LinkedList<Slot>();
 
-						// Instantiate information 
-						else if(meteogrammi && name.equalsIgnoreCase("slot"))
+							// Instantiate information
+						else if (meteogrammi && name.equalsIgnoreCase("slot"))
 							listOfrows = new LinkedList<Row>();
 
-						else if(name.equalsIgnoreCase("meteogramma"))
+						else if (name.equalsIgnoreCase("meteogramma"))
 							cSlots = new Meteogram(getAttributes(parser));
-						
-						else if(name.equalsIgnoreCase("radar"))
+
+						else if (name.equalsIgnoreCase("radar"))
 							radars.add(new Radar(getAttributes(parser)));
 
 						//else if(name.equalsIgnoreCase("data_emissione"))
@@ -171,23 +169,31 @@ public class XMLParser {
 						cForecast.setBody(testo);
 					}
 
-				} else if (event == XmlPullParser.END_DOCUMENT) {} 
+				}
+				else if (event == XmlPullParser.END_DOCUMENT) {
+				}
 			}
 
 			// If not empty do globals and preferences get loaded
 			if(null != bulletins && bulletins.size() > 0 && null != meteograms && meteograms.size() > 0){
-				return Optional.of(new MeteoData(bulletins, meteograms, radars));
+				Global.istance().setBulletins(context, bulletins);
+				Global.istance().setMeteograms(context, meteograms);
+				Global.istance().setRadars(context, radars);
+				//FileCache fileCache = new FileCache(context);
+				//fileCache.clear();
+				//fileCache = null;
+				return true;
 			}
-			
-			return Optional.empty();
+
+			return false;
 
 		} catch (XmlPullParserException em) {
 			em.printStackTrace();
-			return Optional.empty();
+			return false;
 
 		} catch (IOException ex) {
 			ex.printStackTrace();
-			return Optional.empty();
+			return false;
 		}
 	}
 }
