@@ -77,7 +77,7 @@ public class Util {
 	private static final String FILE_XML 	 		= "bollettino_app.xml";
 	private static final String FILE_PLIST	 		= "comuni_app.plist";
 	private static final String URL_XML  	 		= "https://www.arpa.veneto.it/apparpav/bollettino_app.xml";
-	private static final String URL_PLIST  	 		= "http://www.arpa.veneto.it/apparpav/comuni_app.xml";
+	private static final String URL_PLIST  	 		= "https://www.arpa.veneto.it/apparpav/comuni_app.xml";
 
 	
 	public static void CopyStream(InputStream is, OutputStream os){
@@ -255,6 +255,11 @@ public class Util {
 	 * @param context
 	 */
 	public static void setSavedProvinces(Context context, Map<String, Object> p){
+
+		if (context == null){
+			return;
+		}
+
 		try {
 			SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE);
 			Editor editor = prefs.edit();
