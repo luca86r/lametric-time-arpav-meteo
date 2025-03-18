@@ -35,6 +35,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import android.content.Context;
 import android.util.Xml;
+import org.xmlpull.v1.XmlPullParserFactory;
 
 /**
  * Parser the content of a .plist file. All data are stored on Global singleton.
@@ -66,7 +67,10 @@ public class PLISTParser {
 			Municipality cMuni = null;
 			Zone cZone = null;
 
-			XmlPullParser parser = Xml.newPullParser();
+			XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
+			factory.setNamespaceAware(true);
+			XmlPullParser parser = factory.newPullParser();
+
 			parser.setInput(new StringReader(data));
 
 			while (parser.getEventType()!= XmlPullParser.END_DOCUMENT) {
