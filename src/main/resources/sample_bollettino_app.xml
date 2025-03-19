@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app>
+    <data_emissione date="Bollettino del 18/03 alle 13:00"/>
+    <data_aggiornamento date="18/03 alle 16.00"/>
+    <radars>
+
+        <radar title="Teolo" img="http://www.arpa.veneto.it/bollettini/meteo/radar/imgs/teolo/1_BASE.jpg?time=1742317801"/>
+
+        <radar title="Concordia Sagittaria" img="http://www.arpa.veneto.it/previsioni/radar_concordia/1_BASE.jpg?time=1742317801"/>
+
+    </radars>
+    <meteogrammi>
+        <meteogramma zoneid="1" name="Dolomiti Nord-Est">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="max -2"/>
+                    <single_row title="Temperatura 3000m" type="text" value="max -8"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -5 - max 3"/>
+                    <single_row title="Temperatura 3000m" type="text" value="min -7 - max -3"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -1 - max 5"/>
+                    <single_row title="Temperatura 3000m" type="text" value="min -5 - max -2"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a2.png" value2="a3.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Modeste sparse"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="30%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2="Oltre i 1800-2100 m"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="2" name="Dolomiti Sud-Ovest">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="max -2"/>
+                    <single_row title="Temperatura 3000m" type="text" value="max -8"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -5 - max 3"/>
+                    <single_row title="Temperatura 3000m" type="text" value="min -7 - max -3"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -1 - max 5"/>
+                    <single_row title="Temperatura 3000m" type="text" value="min -5 - max -2"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a2.png" value2="a3.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Modeste sparse"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="30%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2="Oltre i 1800-2100 m"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="3" name="Belluno e Prealpi orientali">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a3.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="max -2"/>
+                    <single_row title="Temperatura 2000m" type="text" value="max -3"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="f2.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min -3 - max 4"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -5 - max 2"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="f2.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min 1 - max 6"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -1 - max 4"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a2.png" value2="a4.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Modeste sparse"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="30%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2="Oltre i 2100-2200 m"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="4" name="Prealpi centrali">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a3.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="max -2"/>
+                    <single_row title="Temperatura 2000m" type="text" value="max -3"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min -3 - max 4"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -5 - max 2"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min 1 - max 6"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -1 - max 4"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a2.png" value2="a4.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Modeste sparse"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="30%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2="Oltre i 2100-2200 m"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="5" name="Pedemontana orientale">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a2.png"/>
+                    <single_row title="Temperatura" type="text" value="max 7/9"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -3/-1 - max 10/12"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="6" name="Treviso e pianura orientale">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 9/11"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -1/1 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="7" name="Veneziano orientale">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 8/10"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Vento" type="text" value="Deboli da nordest"/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -3/-1 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="Deboli da nordest" value2="Deboli da sud"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="A regime di brezza" value2="A regime di brezza"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="8" name="Prealpi occidentali">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a3.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="max -2"/>
+                    <single_row title="Temperatura 2000m" type="text" value="max -3"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min -3 - max 4"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -5 - max 2"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura 1500m" type="text" value="min 1 - max 6"/>
+                    <single_row title="Temperatura 2000m" type="text" value="min -1 - max 4"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a2.png" value2="a4.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Modeste sparse"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="30%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2="Oltre i 2100-2200 m"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="9" name="Vicenza e pedemontana">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a2.png"/>
+                    <single_row title="Temperatura" type="text" value="max 9/11"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -1/1 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="10" name="Padova e pianura centrale">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 8/10"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -1/1 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 13/15"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="11" name="Venezia e laguna">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 8/10"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Vento" type="text" value="Deboli da est"/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 10/12"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="Deboli da nordest" value2="Deboli da sudest"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 10/12"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="A regime di brezza" value2="A regime di brezza"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="12" name="Delta del Po">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 7/9"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Vento" type="text" value="Deboli da est"/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="Deboli da nordest" value2="Deboli da sudest"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="A regime di brezza" value2="A regime di brezza"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="13" name="Rovigo e pianura meridionale">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="max 8/10"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -1/1 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 13/15"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="14" name="Verona e pedemontana">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a2.png"/>
+                    <single_row title="Temperatura" type="text" value="max 9/11"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 11/13"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min -2/0 - max 13/15"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+        <meteogramma zoneid="15" name="Area del Garda">
+            <slots>
+                <slot>
+                    <single_row title="Titolo dello slot" type="title" value="mar 18 pomeriggio"/>
+                    <single_row title="Cielo" type="image" value="a2.png"/>
+                    <single_row title="Temperatura" type="text" value="max 8/10"/>
+                    <single_row title="Precipitazioni" type="text" value="Assenti"/>
+                    <single_row title="Probabilita' precipitazione" type="text" value="0%"/>
+                    <single_row title="Quota neve" type="text" value=""/>
+                    <single_row title="Vento" type="text" value="Deboli da sudest"/>
+                    <single_row title="Attendibilita'" type="text" value=""/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="mer 19 mattino" value2="mer 19 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 10/12"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="Deboli da ovest" value2="Variabili"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="gio 20 mattino" value2="gio 20 pomeriggio"/>
+                    <double_row title="Cielo" type="image" value1="a1.png" value2="a1.png"/>
+                    <single_row title="Temperatura" type="text" value="min 0/2 - max 12/14"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Assenti"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="0%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Vento" type="text" value1="Variabili" value2="Variabili"/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Buona"/>
+                </slot>
+                <slot>
+                    <double_row title="Titoli dello slot" type="title" value1="ven 21" value2="sab 22"/>
+                    <double_row title="Cielo" type="image" value1="a3.png" value2="a5.png"/>
+                    <double_row title="Precipitazioni" type="text" value1="Assenti" value2="Qualche pioggia verso sera"/>
+                    <double_row title="Probabilita' precipitazione" type="text" value1="0%" value2="20%"/>
+                    <double_row title="Quota neve" type="text" value1="" value2=""/>
+                    <double_row title="Attendibilita'" type="text" value1="Buona" value2="Discreta"/>
+                </slot>
+            </slots>
+        </meteogramma>
+
+    </meteogrammi>
+    <bollettini>
+
+        <bollettino bollettinoid="MV" name="Meteo Veneto" title="Bollettino del 18 marzo">
+            <slots>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_0.png" caption="mar 18 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Previsione: </b>Generalmente sereno o poco nuvoloso ovunque, salvo residua nuvolosit&agrave; sulle zone occidentali. Clima fresco per il periodo, con temperature in ulteriore generale calo e minime raggiunte in serata in molte zone, con possibili locali gelate anche in pianura. In pianura venti dai quadranti orientali in attenuazione nel corso del pomeriggio, deboli variabili in serata. In quota venti dai quadranti settentrionali da tesi a moderati. ]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_1.png" caption="mer 19 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_2.png" caption="mer 19 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Tempo stabile e ben soleggiato, con cielo in prevalenza sereno, salvo qualche possibile foschia notturna. <br /><b>Precipitazioni: </b>Assenti.<br /><b>Temperature: </b>Minime in ulteriore calo, salvo controtendenze in quota, con valori prossimi o inferiori a zero anche su buon parte della pianura interna, con probabili gelate; massime in generale aumento.<br /><b>Venti: </b>In pianura deboli variabili, con brezze sula costa; in quota deboli meridionali.<br /><b>Mare: </b>Quasi calmo.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_3.png" caption="gio 20 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_4.png" caption="gio 20 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Tempo stabile e soleggiato, con cielo in prevalenza sereno o poco nuvoloso per tratti di nubi alte in transito. Nelle ore pi&ugrave; fredde probabili locali riduzioni della visibilit&agrave; in pianura.
+<br /><b>Precipitazioni: </b>Assenti.<br /><b>Temperature: </b>Minime stazionarie in pianura, in lieve aumento su zone montane e pedemontane; massime in ulteriore aumento. <br /><b>Venti: </b>Deboli variabili in pianura con brezze sulla costa; in quota moderati dai quadranti meridionali.<br /><b>Mare: </b>Calmo.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_5.png" caption="ven 21"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MV_6.png" caption="sab 22"/>
+                    <text>
+                        <![CDATA[<b>Tendenza per venerd&igrave; 21: </b>Permangono condizioni di tempo stabile, con cielo sereno o poco nuvoloso al mattino, poi tendenza ad un aumento della nuvolosit&agrave;; nelle ore pi&ugrave; fredde possibili riduzioni della visibilit&agrave; in pianura. Temperature in generale aumento. Venti deboli variabili in pianura; in quota in progressivo rinforzo da sud-ovest.
+<br /><b>Attendibilit&agrave;: </b>Buona<br /><b>Tendenza per sabato 22: </b>In prevalenza nuvoloso, salvo parziali schiarite, con nubi pi&ugrave; consistenti verso sera. Precipitazioni in prevalenza assenti per buona parte della giornata, verso sera aumenter&agrave; la probabilit&agrave; di fenomeni a partire da ovest. Temperature minime in ulteriore aumento, massime stazionarie in pianura, in calo sulle zone montane. Venti in pianura deboli/moderati dai quadranti orientali nell'entroterra, rinforzi di Scirocco sulla costa verso sera.
+Previsore: R.R.<br /><b>Attendibilit&agrave;: </b>Discreta<br />]]>
+                    </text>
+                </slot>
+            </slots>
+        </bollettino>
+
+        <bollettino bollettinoid="DM" name="Dolomiti Meteo" title="Bollettino del 18 marzo">
+            <slots>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_0.png" caption="mar 18 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Previsione: </b>Cielo in gran parte sereno con aria asciutta ed ottima visibilit&agrave; quasi ovunque specie sulle Dolomiti e in quota sulle Prealpi mentre in molte valli e altipiani prealpini sono ancora presenti delle nubi basse che saranno in lento dissolvimento e in probabile nuova intensificazione nella notte. Clima diurno in prevalenza pi&ugrave; asciutto rispetto a luned&igrave; specie sulle Dolomiti e pi&ugrave; fresco. Temperature massime in diminuzione specie in quota con minime misurate a fine giornata in molti fondovalle con diffuse gelate notturne. Previste punte diurne di 6&deg;/9&deg;C nei fondovalle prealpini e di 2&deg;/6&deg;C a 800-1200 m. Venti in quota in genere deboli o moderati dai quadranti settentrionali.]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_1.png" caption="mer 19 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_2.png" caption="mer 19 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Tempo stabile e ben soleggiato con aria asciutta e ottima visibilit&agrave; specie sulle Dolomiti con possibili formazioni di locali nubi basse o di banchi di nebbia in alcune valli prealpine. Clima diurno pi&ugrave; mite rispetto a marted&igrave; a tutte le quote. <br /><b>Precipitazioni: </b>Assenti (0%).<br /><b>Temperature: </b>Minime in lieve calo nelle valli, in lieve aumento in alta montagna; massime in generale aumento anche marcato soprattutto in alta montagna con elevata escursione termica giornaliera e accentuazione dell'inversione termica dalla sera. Su Prealpi a 1500 m min -3&deg;C e max 4&deg;C, a 2000 m min -5&deg;C e max 2&deg;C. Su Dolomiti a 2000 m min -5&deg;C e max 3&deg;C, a 3000 m min -7&deg;C e max -3&deg;C. <br /><b>Venti: </b>Nelle valli in prevalenza deboli salvo qualche moderato rinforzo a regime di brezza; in quota generalmente deboli, nelle prime ore  provenienti dai quadranti settentrionali, tendenti a disporsi da quelli meridionali in seguito, a 5-10 km/h a 2000 m e a 10-15 km/h a 3000 m.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_3.png" caption="gio 20 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_4.png" caption="gio 20 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Ancora tempo stabile e ben soleggiato con aria asciutta e ottima visibilit&agrave; specie sulle Dolomiti con possibile formazione di qualche nube bassa o di locali banchi di nebbia soprattutto in alcune valli prealpine, in rapido dissolvimento dopo l'alba. <br /><b>Precipitazioni: </b>Assenti (0%).<br /><b>Temperature: </b>In aumento specie le massime, salvo risultare stazionarie le minime in alcune valli, su valori prossimi o di poco superiori alla norma con una significativa inversione termica nelle valli e altipiani durante le ore notturne. Su Prealpi a 1500 m min 1&deg;C e max 6&deg;C, a 2000 m min -1&deg;C e max 4&deg;C. Su Dolomiti a 2000 m min -1&deg;C e max 5&deg;C, a 3000 m min -5&deg;C e max -2&deg;C. <br /><b>Venti: </b>Nelle valli deboli o moderati a regime di brezza; in quota generalmente deboli o moderati provenienti dai quadranti occidentali, a 10-15 km/h a 2000 m e a 15-20 km/h a 3000 m.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_5.png" caption="ven 21"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_DM_6.png" caption="sab 22"/>
+                    <text>
+                        <![CDATA[<b>Tendenza per venerd&igrave; 21: </b>Tempo stabile con cielo sereno soprattutto al mattino e sulle Dolomiti, salvo foschie o locali banchi di nebbia in alcune conche prealpine; dalle ore centrali in genere poco nuvoloso per la possibile formazione di qualche modesto addensamento in prossimit&agrave; delle cime o lungo qualche pendio ma con fenomeni assenti. Temperature in ulteriore aumento con un'elevata inversione termica nelle valli nelle ore fredde ed un'escursione termica giornaliera importante nelle valli e altipiani. Clima diurno molto mite per il periodo a tutte le quote. Venti in alta montagna in da moderati al mattino a tesi nel pomeriggio dai quadranti occidentali.
+<br /><b>Attendibilit&agrave;: </b>Buona<br /><b>Tendenza per sabato 22: </b>Tempo variabile con alternanza di annuvolamenti e qualche schiarita in un contesto prevalentemente nuvoloso con fenomeni modesti e sparsi specie nella seconda parte della giornata, nevosi oltre i 1800-2100 m. Possibili foschie e nubi basse nelle ore fredde in alcune valli. Temperature minime in aumento anche sensibile nelle valli, massime in calo con attenuazione dell'inversione termica. Venti in quota da tesi a moderati da sud ovest.
+Previsore: M.Padoan<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+            </slots>
+        </bollettino>
+
+        <bollettino bollettinoid="MP" name="Meteo Pianura Veneta" title="Bollettino del 18 marzo">
+            <slots>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_0.png" caption="mar 18 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Previsione: </b>Generalmente sereno o poco nuvoloso ovunque. Clima fresco per il periodo, con temperature in ulteriore generale calo e minime raggiunte in serata in molte zone, con possibili locali gelate. Venti dai quadranti orientali in attenuazione nel corso del pomeriggio, deboli variabili in serata. ]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_1.png" caption="mer 19 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_2.png" caption="mer 19 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Tempo stabile e ben soleggiato, con cielo in prevalenza sereno, salvo qualche possibile foschia notturna. <br /><b>Precipitazioni: </b>Assenti.<br /><b>Temperature: </b>Minime in ulteriore calo con valori prossimi o inferiori a zero anche su buon parte delle zone interne, con probabili gelate; massime in generale aumento.<br /><b>Venti: </b>Deboli variabili, con brezze sula costa.<br /><b>Mare: </b>Quasi calmo.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_3.png" caption="gio 20 mattina"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_4.png" caption="gio 20 pomeriggio"/>
+                    <text>
+                        <![CDATA[<b>Tempo atteso: </b>Tempo stabile e soleggiato, con cielo in prevalenza sereno o poco nuvoloso per tratti di nubi alte in transito. Nelle ore pi&ugrave; fredde probabili locali riduzioni della visibilit&agrave;.
+<br /><b>Precipitazioni: </b>Assenti.<br /><b>Temperature: </b>Minime stazionarie in pianura, in lieve aumento sulle zone pedemontane; massime in ulteriore aumento. <br /><b>Venti: </b>Deboli variabili, con brezze sulla costa.<br /><b>Mare: </b>Calmo.<br /><b>Attendibilit&agrave;: </b>Buona<br />]]>
+                    </text>
+                </slot>
+                <slot>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_5.png" caption="ven 21"/>
+                    <img src="https://www.arpa.veneto.it/apparpav/images/map_20250318_MP_6.png" caption="sab 22"/>
+                    <text>
+                        <![CDATA[<b>Tendenza per venerd&igrave; 21: </b>Permangono condizioni di tempo stabile, con cielo sereno o poco nuvoloso al mattino, poi tendenza ad un aumento della nuvolosit&agrave;; nelle ore pi&ugrave; fredde possibili riduzioni della visibilit&agrave;. Temperature in generale aumento. Venti deboli variabili.
+<br /><b>Attendibilit&agrave;: </b>Buona<br /><b>Tendenza per sabato 22: </b>In prevalenza nuvoloso, salvo parziali schiarite, con nubi pi&ugrave; consistenti verso sera. Precipitazioni in prevalenza assenti per buona parte della giornata, verso sera aumenter&agrave; la probabilit&agrave; di fenomeni a partire da ovest. Temperature minime in ulteriore aumento, massime stazionarie. Venti deboli/moderati dai quadranti orientali nell'entroterra, rinforzi di Scirocco sulla costa verso sera.
+Previsore: R.R.<br /><b>Attendibilit&agrave;: </b>Discreta<br />]]>
+                    </text>
+                </slot>
+            </slots>
+        </bollettino>
+
+    </bollettini>
+
+</app>
