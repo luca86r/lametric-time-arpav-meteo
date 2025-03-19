@@ -21,8 +21,17 @@
 
 package it.redturtle.mobile.apparpav.utils;
 
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import it.redturtle.mobile.apparpav.Radar;
 import it.redturtle.mobile.apparpav.types.Municipality;
+import org.xmlpull.v1.XmlPullParser;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -43,17 +52,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-
-import org.xmlpull.v1.XmlPullParser;
-
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 
 /**
  * Utilities
@@ -152,6 +150,10 @@ public class Util {
 	 */
 	public static void setSavedMeteograms(Context context, Map<String, Object> m){
 		try {
+			if (context == null) {
+				return;
+			}
+
 			SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE);
 			Editor editor = prefs.edit();
 			editor.putString(KEY_METEOGRAMS, ObjectSerializer.serialize((Serializable) m));
@@ -168,7 +170,8 @@ public class Util {
 	 * @return
 	 */
 	public static Map<String, Object>  getSavedBulletins(Context context){
-		try {	
+
+		try {
 			SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE);
 			@SuppressWarnings("unchecked")
 			Map<String, Object> savedBulletins = (Map<String, Object>) ObjectSerializer.deserialize(prefs.getString(KEY_BULLETINS, ObjectSerializer.serialize(new HashMap<String, Object>())));
@@ -187,6 +190,11 @@ public class Util {
 	 */
 	public static void setSavedBulletins(Context context, Map<String, Object> b){
 		try {
+
+			if (context == null) {
+				return;
+			}
+
 			SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE);
 			Editor editor = prefs.edit();
 			editor.putString(KEY_BULLETINS, ObjectSerializer.serialize((Serializable) b));
@@ -222,6 +230,10 @@ public class Util {
 	 */
 	public static void setSavedRadars(Context context, LinkedList<Radar> r){
 		try {
+			if (context == null) {
+				return;
+			}
+
 			SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE);
 			Editor editor = prefs.edit();
 			editor.putString(KEY_RADARS, ObjectSerializer.serialize((Serializable) r));
