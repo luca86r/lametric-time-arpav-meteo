@@ -10,12 +10,13 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-public class ZoneServiceTest {
+public class ZoneServiceImplTest {
 
     public static final String PADOVA = "Padova";
     public static final int PADOVA_COMUNI_COUNT = 104;
     public static final String ABANO_TERME = "Abano Terme";
     private static final int PROVINCES_SIZE = 7;
+    private static final int ZONES_SIZE = 15;
     public static final String VICENZA = "Vicenza";
 
     private ZoneService zoneService;
@@ -62,5 +63,14 @@ public class ZoneServiceTest {
         List<Municipality> comuni = zoneService.getComuniByProvincia(PADOVA);
         assertEquals(PADOVA_COMUNI_COUNT, comuni.size());
         assertTrue(comuni.stream().anyMatch(m -> m.getName().equals(ABANO_TERME)));
+    }
+
+    @Test
+    public void testGetAllZoneIdsEmptyReload() {
+
+        Global.istance().getProvinces().clear();
+
+        List<Integer> zoneIds = zoneService.getAllZoneIds();
+        assertEquals(ZONES_SIZE, zoneIds.size());
     }
 }

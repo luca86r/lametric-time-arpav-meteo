@@ -53,6 +53,24 @@ public class ZoneServiceImpl implements ZoneService {
         return comuni;
     }
 
+    @Override
+    public List<Integer> getAllZoneIds() {
+
+        if (LOGGER.isLoggable(Level.INFO)) {
+            LOGGER.info("Getting all zone IDs...");
+        }
+
+        List<Integer> zoneIds =
+            getProvincies().stream().flatMap(p -> getComuniByProvincia(p).stream()).map(Municipality::getZoneid).distinct().map(Integer::valueOf).sorted()
+                           .toList();
+
+        if (LOGGER.isLoggable(Level.INFO)) {
+            LOGGER.info("All zone IDs retrieved (%s)".formatted(zoneIds.size()));
+        }
+
+        return zoneIds;
+    }
+
     private void loadData() {
 
         LOGGER.info("Loading data...");

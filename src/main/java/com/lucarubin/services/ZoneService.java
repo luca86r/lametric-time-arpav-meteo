@@ -6,8 +6,9 @@ import java.util.List;
 
 public interface ZoneService {
 
-    public List<String> getProvincies();
+    List<String> getProvincies();
 
-    public List<Municipality> getComuniByProvincia(String provincia);
+    List<Municipality> getComuniByProvincia(String provincia);
 
+    List<Integer> getAllZoneIds();
 }
